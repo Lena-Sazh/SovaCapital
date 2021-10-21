@@ -1,4 +1,4 @@
-package cloud.autotests.config;
+package com.sovacapital.config;
 
 import org.aeonbits.owner.Config;
 

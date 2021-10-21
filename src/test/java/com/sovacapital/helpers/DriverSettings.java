@@ -1,7 +1,7 @@
-package cloud.autotests.helpers;
+package com.sovacapital.helpers;
 
-import cloud.autotests.config.Project;
 import com.codeborne.selenide.Configuration;
+import com.sovacapital.config.Project;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 

@@ -36,6 +36,22 @@ public class SovaTests extends TestBase {
     }
 
     @CsvSource({
+            "News",
+            "Key Facts",
+            "Nominations",
+            "Contact us"
+    })
+
+    @ParameterizedTest()
+    @Tag("SMOKE")
+    @Feature("Main Page")
+    @DisplayName("Main Page information blocks are present")
+    void infoBlocksArePresentTest(String tabName) {
+        mainPage.openMainPage()
+                .selectTab(tabName);
+    }
+
+    @CsvSource({
             "Who We Are",
             "What We Do",
             "Client & Counterparty Relations",
@@ -46,7 +62,7 @@ public class SovaTests extends TestBase {
     @ParameterizedTest()
     @Tag("SMOKE")
     @Feature("Main Page")
-    @DisplayName("main Page tabs are present")
+    @DisplayName("Main Page tabs are present")
     void tabsArePresentTest(String tabName) {
         mainPage.openMainPage()
                 .selectTab(tabName);
@@ -62,13 +78,13 @@ public class SovaTests extends TestBase {
     @Tag("SMOKE")
     @Feature("Main Page")
     @DisplayName("Tabs for Portals are present")
-    void tabsForPortalsArePresentTest() {
+    void tabsForPortalsArePresentTest(String tabName) {
         mainPage.openMainPage()
-                .selectLoginTab();
+                .selectLoginTab(tabName);
     }
 
     @Test
-    @Tag("IN_DEVELOP")
+    @Tag("SMOKE")
     @Feature("Main Page")
     @DisplayName("Search by keyword")
     public void searchTest() {
@@ -78,8 +94,10 @@ public class SovaTests extends TestBase {
 
         step("Input " + KEYWORD + " value", () -> $(MainPage.searchArea).setValue(KEYWORD).submit());
 
+        step("Get search results", () -> $(MainPage.searchResults).doubleClick());
+
         step("Check if the article with " + KEYWORD + " is exist", () -> {
-            String expectedTitle = "Sova Capital Wins the Best Boutique Prime Broker Category at the HFM Global European Services Awards 2021";
+            String expectedTitle = "Sova Capital Wins the Best Boutique Prime Broker Category at the HFM Global European Services Awards 2021 | Sova Capital";
             String actualTitle = title();
 
             assertThat(actualTitle).isEqualTo(expectedTitle);

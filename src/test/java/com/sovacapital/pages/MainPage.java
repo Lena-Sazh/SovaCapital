@@ -7,7 +7,9 @@ public class MainPage {
     public static final String URL = "https://sovacapital.com/";
     public static final String searchButton = ".btn-search";
     public static final String searchArea = ".form-control-search";
-    public final static String KEYWORD = "Best Boutique Prime Broker";
+    public static final String searchResults = ".searchwp-live-search-result";
+    public static final String KEYWORD = "Best Boutique Prime Broker";
+
 
     String loginButton = ".btn-login";
     String defaultButton = ".login_popup_wrap";
@@ -21,13 +23,9 @@ public class MainPage {
         $$(byText(tabName)).first().click();
     }
 
-    public void selectLoginTab() {
+    public void selectLoginTab(String tabName) {
         $(loginButton).click();
-        $(defaultButton).isDisplayed();
-    }
-
-    public void selectLoginTab(String loginTabName) {
-        $$(byText(loginTabName)).first().click();
+        $(defaultButton).isEnabled();
     }
 
 }

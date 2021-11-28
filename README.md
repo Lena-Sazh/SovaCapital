@@ -15,27 +15,32 @@ ____
 <code><img height="30" title="Allure TestOps" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Allure_EE.svg"></code>
 <code><img height="30" title="Telegram" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Telegram.svg"></code>
 
-### Jenkins job
+### To ran Jenkins job:
 <a target="_blank" href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">Jenkins job for Test runs</a>
 
 Here we can pass **target params** to run tests
 
-*example
-
-#### Run tests with filled remote.properties:
+<p align="left">
+<img height="600" title="Jenkins job" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Jenkins_params.png">
+<p>
+  
+### To ran in Terminal:
+  
+#### - with filled remote.properties:
 ```bash
 gradle clean test
 ```
 
-#### Run tests with not filled remote.properties:
+#### - without filled remote.properties:
 ```bash
 gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-#### Serve Allure report:
+#### - serve Allure report:
 ```bash
 allure serve build/allure-results
 ```
+  
 
 ### Allure report example with attachments
 ![alt "Allure run"](./images/run.png "Allure Report")

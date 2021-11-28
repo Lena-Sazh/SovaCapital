@@ -17,7 +17,7 @@ ____
 ____
 
 ### :gear: To run Jenkins job:
-<a target="_blank" href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">Jenkins job for Test runs</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">Jenkins job for tests to run</a>
 
 Here we can pass **target params** to run tests
 

@@ -87,6 +87,8 @@ ____
   
 ### :mailbox: Test results are also send by Telegram bot as notifications
 
+*with clickable link to Allure report*
+  
 <p align="left">
 <img height="400" title="Telegram bot" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png">
 <p>

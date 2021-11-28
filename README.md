@@ -14,8 +14,9 @@ ____
 <code><img height="30" title="Allure Report" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Allure_Report.svg"></code>
 <code><img height="30" title="Allure TestOps" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Allure_EE.svg"></code>
 <code><img height="30" title="Telegram" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Telegram.svg"></code>
+____
 
-### To ran Jenkins job:
+### To run Jenkins job:
 <a target="_blank" href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">Jenkins job for Test runs</a>
 
 Here we can pass **target params** to run tests
@@ -24,7 +25,7 @@ Here we can pass **target params** to run tests
 <img height="600" title="Jenkins job" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Jenkins_params.png">
 <p>
   
-### To ran in Terminal:
+### To run in Terminal:
   
 #### - with filled remote.properties:
 ```bash
@@ -40,22 +41,58 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 ```bash
 allure serve build/allure-results
 ```
+____  
+
+### Allure report
+#### Overview 
+<p align="left">
+<img height="300" title="Allure overview" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Overview.png">
+<p>  
   
+#### Suites
+<p align="left">
+<img height="300" title="Allure suites" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Report.png">
+<p> 
 
-### Allure report example with attachments
-![alt "Allure run"](./images/run.png "Allure Report")
-#### Here we can see: 
-- Screenshots
-- Page source
-- Browser logs
-- Video
+#### Timeline
+<p align="left">
+<img height="300" title="Allure timeline" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Timeline.png">
+<p> 
+  
+#### Attachments
+<p align="left">
+<img height="300" title="Allure attachments" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Allure_Attach.png">
+<p>
 
-![alt "Allure steps"](./images/testSteps.png "Test steps")
-
+### Allure TestOps
+#### Test Cases
+<p align="left">
+<img height="300" title="Allure test cases" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/TestCases.png">
+<p>
+  
+#### Dashboard
+<p align="left">
+<img height="300" title="Allure dashboard" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Dashboard.png">
+<p>
+  
+#### Graph
+<p align="left">
+<img height="300" title="Allure graph" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Graph.png">
+<p>
+  
+#### Launches
+<p align="left">
+<img height="300" title="Allure launches" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png">
+<p>
+  
 ### Test results are also send by Telegram bot as notifications
 
-![alt "бот в телеграмме"](./images/telegram.png "бот в телеграм")
+<p align="left">
+<img height="400" title="Telegram bot" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png">
+<p>
 
 ### And finally there is a short video report of test case
 
-![alt "Video"](./images/gif.gif "Video")
+<p align="left">
+<img height="400" title="Video report" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Video.gif">
+<p>

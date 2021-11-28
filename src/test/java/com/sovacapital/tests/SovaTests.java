@@ -21,7 +21,7 @@ public class SovaTests extends TestBase {
     @Test
     @Tag("SMOKE")
     @Feature("Main Page")
-    @DisplayName("Open the main page")
+    @DisplayName("Open the Main Page")
     public void mainPageTest() {
         step("Open main page", () -> open(MainPage.URL));
 

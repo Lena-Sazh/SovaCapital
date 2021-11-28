@@ -4,7 +4,6 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import com.sovacapital.config.Project;
 import com.sovacapital.helpers.AllureAttachments;
-import com.sovacapital.helpers.Attach;
 import com.sovacapital.helpers.DriverSettings;
 import com.sovacapital.helpers.DriverUtils;
 import io.qameta.allure.junit5.AllureJunit5;
@@ -37,10 +36,5 @@ public class TestBase {
             AllureAttachments.addVideo(sessionId);
         }
     }
-    public void tearDown() {
-        Attach.screenshotAs("Last screenshot");
-        Attach.pageSource();
-        Attach.browserConsoleLogs();
-        Attach.addVideo();
-    }
+
 }

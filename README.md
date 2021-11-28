@@ -51,28 +51,28 @@ ____
   
 #### Suites
 <p align="left">
-<img height="300" title="Allure suites" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Report.png">
+<img height="350" title="Allure suites" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Report.png">
 <p> 
 
 #### Timeline
 <p align="left">
-<img height="300" title="Allure timeline" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Timeline.png">
+<img height="250" title="Allure timeline" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Timeline.png">
 <p> 
   
 #### Attachments
 <p align="left">
-<img height="300" title="Allure attachments" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Allure_Attach.png">
+<img height="350" title="Allure attachments" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Allure_Attach.png">
 <p>
 
 ### :card_index_dividers: Allure TestOps
 #### Test Cases
 <p align="left">
-<img height="300" title="Allure test cases" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/TestCases.png">
+<img height="350" title="Allure test cases" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/TestCases.png">
 <p>
   
 #### Dashboard
 <p align="left">
-<img height="300" title="Allure dashboard" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Dashboard.png">
+<img height="350" title="Allure dashboard" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Dashboard.png">
 <p>
   
 #### Graph
@@ -82,7 +82,7 @@ ____
   
 #### Launches
 <p align="left">
-<img height="300" title="Allure launches" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png">
+<img height="350" title="Allure launches" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png">
 <p>
   
 ### :mailbox: Test results are also send by Telegram bot as notifications

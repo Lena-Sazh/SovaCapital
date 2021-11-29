@@ -1,7 +1,8 @@
 ![Logo Light](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Sova_white.svg#gh-dark-mode-only)
 ![Logo Dark](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Sova_black.svg#gh-light-mode-only)
 
-# :owl: Sova Capital - UI Test Automation Project
+## UI Test Automation Project :owl:
+  
 ### Simple manual & automated tests examples for <a href="https://sovacapital.com">Sova Capital site</a>
 ____
 

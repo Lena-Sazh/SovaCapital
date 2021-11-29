@@ -9,14 +9,13 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.sovacapital.pages.MainPage.KEYWORD;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SovaTests extends TestBase {
-
-    private final MainPage mainPage = new MainPage();
 
     @Test
     @Tag("SMOKE")
@@ -47,8 +46,9 @@ public class SovaTests extends TestBase {
     @Feature("Main Page")
     @DisplayName("Main Page information blocks are present")
     void infoBlocksArePresentTest(String tabName) {
-        mainPage.openMainPage()
-                .selectTab(tabName);
+        step("Open main page", () -> open(MainPage.URL));
+
+        step("Select tab", () -> $$(byText(tabName)).first().click());
     }
 
     @CsvSource({
@@ -64,8 +64,9 @@ public class SovaTests extends TestBase {
     @Feature("Main Page")
     @DisplayName("Main Page tabs are present")
     void tabsArePresentTest(String tabName) {
-        mainPage.openMainPage()
-                .selectTab(tabName);
+        step("Open main page", () -> open(MainPage.URL));
+
+        step("Select tab", () -> $$(byText(tabName)).first().click());
     }
 
     @CsvSource({
@@ -79,8 +80,11 @@ public class SovaTests extends TestBase {
     @Feature("Main Page")
     @DisplayName("Tabs for Portals are present")
     void tabsForPortalsArePresentTest(String tabName) {
-        mainPage.openMainPage()
-                .selectLoginTab(tabName);
+        step("Open main page", () -> open(MainPage.URL));
+
+        step("Select login button", () -> $(MainPage.loginButton).click());
+
+        step("Check portal tab is enabled", () -> $$(byText(tabName)).first().isEnabled());
     }
 
     @Test

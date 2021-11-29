@@ -22,14 +22,14 @@ ____
 <code><img height="30" title="Telegram" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Telegram.svg"></code>
 ____
 
-### :gear: To run Jenkins job:
-<a target="_blank" href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">Here</a> we can choose "Run with parameters" option and pass **target params** for tests
+### :gear: Jenkins job
+To run <a href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">job</a> we can choose "Run with parameters" option and pass **target params** for tests
 
 <p align="left">
 <img height="600" title="Jenkins job" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Jenkins_params.png">
 <p>
   
-### :gear: To run in Terminal:
+Or we can use these commands:
   
 #### - with filled remote.properties:
 ```bash
@@ -61,7 +61,7 @@ After each test run we have detailed report about recent and previous test execu
 <img height="350" title="Allure suites" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Report.png">
 <p> 
 
-#### Timeline
+#### Timelines
 <p align="left">
 <img height="250" title="Allure timeline" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Timeline.png">
 <p> 
@@ -85,7 +85,7 @@ Here we also can see detailed information about test runs, but in addition we ca
 <img height="350" title="Allure dashboard" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Dashboard.png">
 <p>
   
-#### Graph
+#### Graphs
 <p align="left">
 <img height="300" title="Allure graph" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Graph.png">
 <p>

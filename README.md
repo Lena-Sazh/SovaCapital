@@ -1,10 +1,12 @@
 # :owl: Sova Capital - UI Test Automation Project :blue_heart:
-### *Simple manual & automated tests examples for <a href="https://sovacapital.com">Sova Capital site</a>*
+### Simple manual & automated tests examples for <a href="https://sovacapital.com">Sova Capital site</a>
 ____
 
-##### :grey_exclamation: *Disclaimer - This project does not contain any confidential information, so it cannot be a matter of any GDPR breach or other legal obuse concern*
+*DISCLAIMER*
 
+*This project does not contain any confidential information, so it cannot be a matter of any GDPR breach or other legal obuse concern*
 ____
+
 ### :hammer_and_pick: Project stack
 
 <code><img height="30" title="IntelliJ IDEA" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Intelij_IDEA.svg"></code>

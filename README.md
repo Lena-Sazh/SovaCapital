@@ -10,7 +10,7 @@ ____
 
 *DISCLAIMER*
 
-*This project does not contain any confidential information, so it cannot be a matter of any GDPR breach or other legal abuse concern*
+*This project does not contain any confidential information, so it cannot be a matter of GDPR breach or any other legal abuse concern*
 ____
 
 ### :hammer_and_pick: Project stack

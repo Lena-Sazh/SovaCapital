@@ -1,5 +1,5 @@
-# :owl: Sova Capital :blue_heart:
-## *Simple manual & automated tests examples*
+# :owl: Sova Capital - UI Test Automation Project :blue_heart:
+### *Simple manual & automated tests examples for <a href="https://sovacapital.com">Sova Capital site</a>*
 ____
 ### :hammer_and_pick: Project stack
 

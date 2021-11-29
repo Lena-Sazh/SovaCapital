@@ -1,7 +1,13 @@
-# :owl: Sova Capital :blue_heart:
-## *Simple manual & automated tests examples*
+# :owl: Sova Capital - UI Test Automation Project
+### Simple manual & automated tests examples for <a href="https://sovacapital.com">Sova Capital site</a>
 ____
-### Project stack
+
+*DISCLAIMER*
+
+*This project does not contain any confidential information, so it cannot be a matter of any GDPR breach or other legal abuse concern*
+____
+
+### :hammer_and_pick: Project stack
 
 <code><img height="30" title="IntelliJ IDEA" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Intelij_IDEA.svg"></code>
 <code><img height="30" title="Java" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Java.svg"></code>
@@ -16,16 +22,14 @@ ____
 <code><img height="30" title="Telegram" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Telegram.svg"></code>
 ____
 
-### To run Jenkins job:
-<a target="_blank" href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">Jenkins job for Test runs</a>
-
-Here we can pass **target params** to run tests
+### :gear: Jenkins job
+To run <a href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">job</a> we can choose "Run with parameters" option and pass **target params** for tests
 
 <p align="left">
 <img height="600" title="Jenkins job" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Jenkins_params.png">
 <p>
   
-### To run in Terminal:
+Or we can use these commands:
   
 #### - with filled remote.properties:
 ```bash
@@ -43,7 +47,10 @@ allure serve build/allure-results
 ```
 ____  
 
-### Allure report
+### :bar_chart: Allure Report
+
+After each test run we have detailed report about recent and previous test executions with test artifacts, attachments, history and graphs
+  
 #### Overview 
 <p align="left">
 <img height="300" title="Allure overview" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Overview.png">
@@ -51,47 +58,54 @@ ____
   
 #### Suites
 <p align="left">
-<img height="300" title="Allure suites" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Report.png">
+<img height="350" title="Allure suites" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Report.png">
 <p> 
 
-#### Timeline
+#### Timelines
 <p align="left">
-<img height="300" title="Allure timeline" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Timeline.png">
+<img height="250" title="Allure timeline" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Timeline.png">
 <p> 
   
 #### Attachments
 <p align="left">
-<img height="300" title="Allure attachments" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Allure_Attach.png">
+<img height="350" title="Allure attachments" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Allure_Attach.png">
 <p>
 
-### Allure TestOps
+### :card_index_dividers: Allure TestOps
+
+Here we also can see detailed information about test runs, but in addition we can manage test cases and create new ones
+  
 #### Test Cases
 <p align="left">
-<img height="300" title="Allure test cases" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/TestCases.png">
+<img height="350" title="Allure test cases" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/TestCases.png">
 <p>
   
 #### Dashboard
 <p align="left">
-<img height="300" title="Allure dashboard" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Dashboard.png">
+<img height="350" title="Allure dashboard" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Dashboard.png">
 <p>
   
-#### Graph
+#### Graphs
 <p align="left">
 <img height="300" title="Allure graph" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Graph.png">
 <p>
   
 #### Launches
 <p align="left">
-<img height="300" title="Allure launches" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png">
+<img height="350" title="Allure launches" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png">
 <p>
   
-### Test results are also send by Telegram bot as notifications
+### :mailbox: Telegram Bot
 
+Test results are also send by Telegram bot as notifications with clickable link to Allure report
+  
 <p align="left">
 <img height="400" title="Telegram bot" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png">
 <p>
 
-### And finally there is a short video report of test case
+### :arrow_forward: Video report example
+
+And finally there is a short video report of test case execution
 
 <p align="left">
 <img height="400" title="Video report" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Video.gif">

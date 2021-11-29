@@ -47,7 +47,7 @@ allure serve build/allure-results
 ```
 ____  
 
-### :bar_chart: Allure report
+### :bar_chart: Allure Report
 
 After each test run we have detailed report about recent and previous test executions with test artifacts, attachments, history and graphs
   
@@ -72,6 +72,9 @@ After each test run we have detailed report about recent and previous test execu
 <p>
 
 ### :card_index_dividers: Allure TestOps
+
+Here we also can see detailed information about test runs, but in addition we can manage test cases and create new ones
+  
 #### Test Cases
 <p align="left">
 <img height="350" title="Allure test cases" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/TestCases.png">
@@ -92,15 +95,17 @@ After each test run we have detailed report about recent and previous test execu
 <img height="350" title="Allure launches" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png">
 <p>
   
-### :mailbox: Test results are also send by Telegram bot as notifications
+### :mailbox: Telegram Bot
 
-*with clickable link to Allure report*
+Test results are also send by Telegram bot as notifications with clickable link to Allure report
   
 <p align="left">
 <img height="400" title="Telegram bot" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png">
 <p>
 
-### :arrow_forward: And finally there is a short video report of test case execution
+### :arrow_forward: Video report example
+
+And finally there is a short video report of test case execution
 
 <p align="left">
 <img height="400" title="Video report" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Video.gif">

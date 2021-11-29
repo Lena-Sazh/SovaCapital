@@ -48,6 +48,9 @@ allure serve build/allure-results
 ____  
 
 ### :bar_chart: Allure report
+
+After each test run we have detailed report about recent and previous test executions with test artifacts, attachments, history and graphs
+  
 #### Overview 
 <p align="left">
 <img height="300" title="Allure overview" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Overview.png">

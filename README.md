@@ -3,7 +3,7 @@
 
 ## UI Test Automation Project :owl:
   
-### Simple manual & automated tests examples for <a href="https://sovacapital.com">Sova Capital site</a>
+### Simple manual & automated tests examples for <a href="https://sovacapital.com">Sova Capital website</a>
 
 ![Main Page](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Sova_Capital.png)
 ____

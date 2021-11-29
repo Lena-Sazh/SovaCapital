@@ -1,4 +1,4 @@
-# :owl: Sova Capital - UI Test Automation Project :blue_heart:
+# :owl: Sova Capital - UI Test Automation Project
 ### Simple manual & automated tests examples for <a href="https://sovacapital.com">Sova Capital site</a>
 ____
 
@@ -99,7 +99,7 @@ ____
 <img height="400" title="Telegram bot" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png">
 <p>
 
-### :arrow_forward: And finally there is a short video report of test case
+### :arrow_forward: And finally there is a short video report of test case execution
 
 <p align="left">
 <img height="400" title="Video report" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Video.gif">

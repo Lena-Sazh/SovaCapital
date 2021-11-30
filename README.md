@@ -31,9 +31,7 @@ ____
 ### :gear: Jenkins job
 To run <a href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">job</a> we can choose "Run with parameters" option and pass **target params** for tests
 
-<p align="left">
-<img height="600" title="Jenkins job" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Jenkins_params.png">
-<p>
+![Jenkins job](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Jenkins_params.png)
   
 Or we can use these commands:
   
@@ -58,61 +56,56 @@ ____
 After each test run we have detailed report about recent and previous test executions with test artifacts, attachments, history and graphs
   
 #### Overview 
-<p align="left">
-<img height="300" title="Allure overview" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Overview.png">
-<p>  
+
+![Allure overview](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Overview.png)
   
 #### Suites
-<p align="left">
-<img height="350" title="Allure suites" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Report.png">
-<p> 
+
+![Allure suites](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Report.png)
 
 #### Timelines
-<p align="left">
-<img height="250" title="Allure timeline" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Timeline.png">
-<p> 
-  
+
+![Allure timeline](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Timeline.png)
+
 #### Attachments
-<p align="left">
-<img height="350" title="Allure attachments" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Allure_Attach.png">
-<p>
+  
+![Allure attachments](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Allure_Attach.png)
+
 
 ### :card_index_dividers: Allure TestOps
 
 Here we also can see detailed information about test runs, but in addition we can manage test cases and create new ones
   
 #### Test Cases
-<p align="left">
-<img height="350" title="Allure test cases" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/TestCases.png">
-<p>
+  
+![Allure test cases](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/TestCases.png)
+
   
 #### Dashboard
-<p align="left">
-<img height="350" title="Allure dashboard" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Dashboard.png">
-<p>
+  
+![Allure dashboard](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Dashboard.png)
+
   
 #### Graphs
-<p align="left">
-<img height="300" title="Allure graph" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Graph.png">
-<p>
+  
+![Allure graph](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Graph.png)
+
   
 #### Launches
-<p align="left">
-<img height="350" title="Allure launches" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png">
-<p>
+  
+![Allure launches](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png)
+
   
 ### :mailbox: Telegram Bot
 
 Test results are also send by Telegram bot as notifications with clickable link to Allure report
   
-<p align="left">
-<img height="400" title="Telegram bot" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png">
-<p>
+![Telegram bot](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png)
+
 
 ### :arrow_forward: Video report example
 
 And finally there is a short video report of test case execution
+  
+![Video report](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Video.gif)
 
-<p align="left">
-<img height="400" title="Video report" src="https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Video.gif">
-<p>

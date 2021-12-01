@@ -71,6 +71,7 @@ After each test run we have detailed report about recent and previous test execu
   
 ![Allure attachments](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Allure_Attach.png)
 
+____
 
 ### :card_index_dividers: Allure TestOps
 
@@ -95,6 +96,7 @@ Here we also can see detailed information about test runs, but in addition we ca
   
 ![Allure launches](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Launches.png)
 
+____
   
 ### :mailbox: Telegram Bot
 
@@ -102,6 +104,7 @@ Test results are also send by Telegram bot as notifications with clickable link 
   
 ![Telegram bot](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png)
 
+____
 
 ### :arrow_forward: Video report example
 

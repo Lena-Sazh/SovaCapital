@@ -30,7 +30,7 @@ ____
 
 ### :heavy_check_mark: Implemented UI tests
 
-* **The Main Page:**
+* **Main Page:**
   - Opens correctly
   - All information blocks are present
   - All tabs are present

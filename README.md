@@ -28,7 +28,25 @@ ____
 <code><img height="50" title="Telegram" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Telegram.svg"></code>
 ____
 
+### :heavy_check_mark: Implemented UI tests
+
+* **The Main Page:**
+  - Opens correctly
+  - All information blocks are present
+  - All tabs are present
+* **Portals:**
+  - Research Portal login button are present
+  - Smart login button are present
+  - Sova Events login button are present
+* **Search:**
+  - Search by keywords are correct
+* **Logs:**
+  - Console have no errors
+
+____
+
 ### :gear: Jenkins job
+
 To run <a href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">job</a> we can choose "Run with parameters" option and pass **target params** for tests
 
 ![Jenkins job](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Jenkins_params.png)

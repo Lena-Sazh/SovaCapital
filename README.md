@@ -26,6 +26,7 @@ ____
 <code><img height="50" title="Allure Report" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Allure_Report.svg"></code>
 <code><img height="50" title="Allure TestOps" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Allure_EE.svg"></code>
 <code><img height="50" title="Telegram" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Telegram.svg"></code>
+<code><img height="50" title="Telegram" src="https://github.com/Lena-Sazh/Lena-Sazh/blob/main/src/test/resources/logo/Jira.svg"></code>
 ____
 
 ### :heavy_check_mark: Implemented UI tests
@@ -121,6 +122,14 @@ ____
 Test results are also send by Telegram bot as notifications with clickable link to Allure report
   
 ![Telegram bot](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Bot.png)
+
+____
+
+### :pushpin: JIRA Task integration
+
+All test cases and test results are integrated with JIRA
+  
+![JIRA task](https://github.com/Lena-Sazh/SovaCapital/blob/master/src/test/resources/images/Jira_task.png)
 
 ____
 

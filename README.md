@@ -1,3 +1,9 @@
+<p align="right">
+<a href="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=Lena-sazh.SovaCapital&color=47C8C4&style=plastic&logo=Github&text=Hello_Visitors!">
+  <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=Lena-sazh.SovaCapital&color=47C8C4&style=plastic&logo=Github&text=Hello_Visitors!"/>
+</a>
+</p>
+
 ![Logo Light](/src/test/resources/images/Sova_white.svg#gh-dark-mode-only)
 ![Logo Dark](/src/test/resources/images/Sova_black.svg#gh-light-mode-only)
 

@@ -4,14 +4,14 @@
 </a>
 </p>
 
-![Logo Light](/src/test/resources/images/Sova_white.svg#gh-dark-mode-only)
-![Logo Dark](/src/test/resources/images/Sova_black.svg#gh-light-mode-only)
+![Logo Light](images/Sova_white.svg#gh-dark-mode-only)
+![Logo Dark](images/Sova_black.svg#gh-light-mode-only)
 
 # Test Automation Project :owl:
   
 ## Simple automated UI tests examples for <a href="https://sovacapital.com">Sova Capital website</a>
 
-![Main Page](/src/test/resources/images/Sova_Capital.png)
+![Main Page](images/Sova_Capital.png)
 ____
 
 *DISCLAIMER*
@@ -68,7 +68,7 @@ ____
 
 To run <a href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">job</a> we can choose "Run with parameters" option and pass **target params** for tests
 
-![Jenkins job](/src/test/resources/images/Jenkins_params.png)
+![Jenkins job](images/Jenkins_params.png)
   
 Or we can use these commands:
   
@@ -94,19 +94,19 @@ After each test run we have detailed report about recent and previous test execu
   
 ### Overview 
 
-![Allure overview](/src/test/resources/images/Overview.png)
+![Allure overview](images/Overview.png)
   
 ### Suites
 
-![Allure suites](/src/test/resources/images/Report.png)
+![Allure suites](images/Report.png)
 
 ### Timelines
 
-![Allure timeline](/src/test/resources/images/Timeline.png)
+![Allure timeline](images/Timeline.png)
 
 ### Attachments
   
-![Allure attachments](/src/test/resources/images/Allure_Attach.png)
+![Allure attachments](images/Allure_Attach.png)
 
 ____
 
@@ -116,22 +116,22 @@ ____
   
 ### Test Cases
   
-![Allure test cases](/src/test/resources/images/TestCases.png)
+![Allure test cases](images/TestCases.png)
 
   
 ### Dashboard
   
-![Allure dashboard](/src/test/resources/images/Dashboard.png)
+![Allure dashboard](images/Dashboard.png)
 
   
 ### Graphs
   
-![Allure graph](/src/test/resources/images/Graph.png)
+![Allure graph](images/Graph.png)
 
   
 ### Launches
   
-![Allure launches](/src/test/resources/images/Launches.png)
+![Allure launches](images/Launches.png)
 
 ____
   
@@ -139,7 +139,7 @@ ____
 
 Test results are also send by Telegram bot `@Lemo_0nka_Alert_bot` as notifications with clickable link to Allure report
   
-![Telegram bot](/src/test/resources/images/Bot.png)
+![Telegram bot](images/Bot.png)
 
 ____
 
@@ -147,7 +147,7 @@ ____
 
 All test cases and test results are integrated with <a href="https://jira.autotests.cloud/browse/AUTO-474">JIRA</a>
   
-![JIRA task](/src/test/resources/images/Jira_task.png)
+![JIRA task](images/Jira_task.png)
 
 ____
 
@@ -155,4 +155,4 @@ ____
 
 And finally as an example there is a short video report of test case execution
   
-![Video report](/src/test/resources/images/Video.gif)
+![Video report](images/Video.gif)

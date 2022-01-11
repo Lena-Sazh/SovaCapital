@@ -72,17 +72,17 @@ To run <a href="https://jenkins.autotests.cloud/job/SovaCapital_Tests/">job</a> 
   
 Or we can use these commands:
   
-### - with filled remote.properties:
+- with filled remote.properties:
 ```bash
 gradle clean test
 ```
 
-### - without filled remote.properties:
+- without filled remote.properties:
 ```bash
 gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-### - serve Allure Report:
+- serve Allure Report:
 ```bash
 allure serve build/allure-results
 ```

@@ -40,7 +40,6 @@ public class SovaTests extends TestBase {
             "Nominations",
             "Contact us"
     })
-
     @ParameterizedTest()
     @Tag("SMOKE")
     @Feature("Main Page")
@@ -58,7 +57,6 @@ public class SovaTests extends TestBase {
             "News",
             "Contacts"
     })
-
     @ParameterizedTest()
     @Tag("SMOKE")
     @Feature("Main Page")
@@ -74,7 +72,6 @@ public class SovaTests extends TestBase {
             "Smart",
             "Sova Events"
     })
-
     @ParameterizedTest()
     @Tag("SMOKE")
     @Feature("Main Page")
